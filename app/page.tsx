@@ -72,7 +72,7 @@ export default function Home() {
     <>
       <div className="preheader bg-[#1a1a1a] p-2 text-center">
         <p className="preheader-p text-[#f5f5f5] text-sm font-medium">
-          Please ensure the URL matches: <span className="preheader-url text-[#f1c40f] font-bold">https://idan.com</span>
+          Please ensure the URL matches:<span className="preheader-url text-[#f1c40f] font-bold">https://dx-25.vercel.app</span>
         </p>
       </div>
 
